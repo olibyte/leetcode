@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class Solution {
+class numJewelsIsInStones {
     public int numJewelsInStones(String J, String S) {
         int count = 0;
         HashSet<Character> jewels = new HashSet<>();

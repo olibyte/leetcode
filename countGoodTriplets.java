@@ -1,4 +1,4 @@
-class Solution {
+class countGoodTriplets {
     public int countGoodTriplets(int[] arr, int a, int b, int c) {
         int tripletCount = 0;
         // brute force

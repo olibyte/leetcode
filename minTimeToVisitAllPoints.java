@@ -1,4 +1,4 @@
-class Solution {
+class minTimeToVisitAllPoints {
     public int minTimeToVisitAllPoints(int[][] points) {
         //O(n**2) first solution        
         int seconds = 0;
@@ -29,12 +29,12 @@ class Solution {
     }
 }
 //optimized O(n) solution, don't need the nested loop.
-class minTimeToVisitAllPoints {
-    public int minTimeToVisitAllPoints(int[][] points) {
-        int seconds = 0;
+// class minTimeToVisitAllPoints {
+//     public int minTimeToVisitAllPoints(int[][] points) {
+//         int seconds = 0;
 
-        for (int i = 0; i < points.length - 1; i++)
-            seconds += Math.max(Math.abs(points[i][0] - points[i + 1][0]), Math.abs(points[i][1] - points[i + 1][1]));
-        return seconds;
-    }
-}
+//         for (int i = 0; i < points.length - 1; i++)
+//             seconds += Math.max(Math.abs(points[i][0] - points[i + 1][0]), Math.abs(points[i][1] - points[i + 1][1]));
+//         return seconds;
+//     }
+// }

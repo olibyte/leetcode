@@ -1,5 +1,5 @@
 //Definition for singly-linked list.
-  public class ListNode {
+class ListNode {
       int val;
       ListNode next;
       ListNode() {}
@@ -7,7 +7,7 @@
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
   }
 
-class Solution {
+class getDecimalValue {
     public int getDecimalValue(ListNode head) {
         int sum = 0;
                 

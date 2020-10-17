@@ -1,4 +1,4 @@
-class Solution {
+class restoreString {
     public String restoreString(String s, int[] indices) {
         String result = "";
         char[] letters = new char[indices.length];

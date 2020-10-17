@@ -1,4 +1,4 @@
-class Solution {
+class maximum69Number {
     public int maximum69Number (int num) {
     int count=0;
         int n=num;

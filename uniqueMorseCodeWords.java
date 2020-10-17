@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class Solution {
+class uniqueMorseRepresentations {
     public int uniqueMorseRepresentations(String[] words) {
         String[] MORSE = new String[] { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-",
                 ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--",

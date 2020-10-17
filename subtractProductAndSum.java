@@ -1,4 +1,4 @@
-class Solution {
+class subtractProductAndSum {
     public int subtractProductAndSum(int n) {
         int product = 1, sum = 0; //initialize product with value of 1 for multiplication operations
         while (n > 0) {

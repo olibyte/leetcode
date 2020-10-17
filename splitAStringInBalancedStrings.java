@@ -1,4 +1,4 @@
-class Solution {
+class balancedStringSplit {
     public int balancedStringSplit(String s) {
         int balancedStrings = 0;
         int counter = 0;

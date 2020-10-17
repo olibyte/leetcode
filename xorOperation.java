@@ -1,4 +1,4 @@
-class Solution {
+class xorOperation {
     public int xorOperation(int n, int start) {
         int[] nums = new int[n];
         int bitwiseXOR  = 0;

@@ -1,4 +1,4 @@
-class Solution {
+class sumOddLengthSubarrays {
     public int sumOddLengthSubarrays(int[] arr) {
         // Brute force solution. Iterate fragmentSize, then starting position and sum all elements. Time O(N³)
         int sum = 0;

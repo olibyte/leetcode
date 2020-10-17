@@ -1,4 +1,4 @@
-class Solution {
+class defangIPaddr {
     public String defangIPaddr(String address) {
         char[] ipCharacters = address.toCharArray();
         StringBuffer defangedAddress = new StringBuffer();

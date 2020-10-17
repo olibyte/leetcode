@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Solution {
+class createTargetArray {
     public int[] createTargetArray(int[] nums, int[] index) {
         int[] target = new int[nums.length];
         //without using ArrayList

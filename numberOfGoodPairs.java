@@ -1,4 +1,4 @@
-class Solution {
+class numIdenticalPairs {
     public int numIdenticalPairs(int[] nums) {
         //to do - optimize with hashmap.
         int pairs = 0;

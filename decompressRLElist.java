@@ -1,4 +1,4 @@
-class Solution {
+class decompressRLElist {
     public int[] decompressRLElist(int[] nums) {
         //iterate through nums, stepping 2 elements at a time to eval freq to calculate length of our soon to be decompressed list
         int len = 0;
