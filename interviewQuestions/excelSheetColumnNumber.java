@@ -11,5 +11,6 @@ public class excelSheetColumnNumber {
            sum = (int) (sum + charValue * Math.pow(base, i));
        }
        return sum;
+       
     }
 }
