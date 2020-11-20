@@ -9,19 +9,25 @@ class romanToInt {
         //III => 'I','I','I' => { IV? => 5-1 = 4 : IX? => 10-1 = 9 : else I*1 = 3 }
         HashMap<Character, Integer> romanIntMap = new HashMap<>();
         
+            //perform roman to int
+        romanIntMap.put('I', 1);
+        romanIntMap.put('V', 5);
+        romanIntMap.put('X', 10);
+        romanIntMap.put('L', 50);
+        romanIntMap.put('C', 100);
+        romanIntMap.put('D', 500);
+        romanIntMap.put('M', 1000);
+        int last = Integer.MAX_VALUE;
         for (char c : s.toCharArray()) {
-            // romanIntMap.put(s.charAt(i), ).charAt(i)
-            // if (s.charAt(i) == 'I') {
-                // if (s.charAt(i+1) == 'V') {
-                    //4
-                // } else if (s.charAt(i+1) == 'X') {
-                    //9
-                // } else {
-                    //2 
-                // }
-            // }
+            if(romanIntMap.get(c) > last) {
+                result += romanIntMap.get(c) - 2*last;
+                last = Integer.MAX_VALUE;
+            }
+            else {
+                result += romanIntMap.get(c);
+                last = romanIntMap.get(c);
+            }
         }
-//95 
         return result;
     }
 }
