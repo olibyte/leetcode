@@ -34,21 +34,20 @@ class generateParentheses {
      */
     //recursion with backtracking
         public List<String> generateParenthesis(int n) {
-            List<String> ans = new ArrayList();
-            backtrack(ans, "", 0, 0, n);
-            return ans;
+            List<String> result = new ArrayList();
+            backtrack(result, "", 0, 0, n);
+            return result;
         }
     
-        public void backtrack(List<String> ans, String cur, int open, int close, int max){
+        public void backtrack(List<String> result, String cur, int open, int close, int max){
             if (cur.length() == max * 2) {
-                ans.add(cur);
+                result.add(cur);
                 return;
             }
     
             if (open < max)
-                backtrack(ans, cur+"(", open+1, close, max);
+                backtrack(result, cur+"(", open+1, close, max);
             if (close < open)
-                backtrack(ans, cur+")", open, close+1, max);
+                backtrack(result, cur+")", open, close+1, max);
         }
-    
 }
