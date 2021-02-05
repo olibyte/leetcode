@@ -25,7 +25,7 @@ public class mergeKSortedLists {
         ListNode curr = dummyHead;
 
         // link the root of minheap to he dummyHead, add the root.next to the minheap,
-        // repeate this process untill minheap runs out of nodes
+        // repeat this process until minheap runs out of nodes
         while (!queue.isEmpty()) {
             curr.next = queue.poll();
             curr = curr.next;
