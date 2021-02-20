@@ -6,7 +6,7 @@ import java.util.List;
 class spiralMatrix {
     // SIMULATION
     public List<Integer> spiralOrder(int[][] matrix) {
-        List ans = new ArrayList();
+        List<Integer> ans = new ArrayList<>();
         if (matrix.length == 0)
             return ans;
         int R = matrix.length, C = matrix[0].length;
@@ -33,7 +33,7 @@ class spiralMatrix {
 
     // LAYER BY LAYER
     public List<Integer> spiralOrderLayer(int[][] matrix) {
-        List result = new ArrayList();
+        List<Integer> result = new ArrayList<Integer>();
         if (matrix.length == 0)
             return result;
         int r1 = 0, r2 = matrix.length - 1;
