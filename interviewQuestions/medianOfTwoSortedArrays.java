@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package interviewQuestions;
 
 public class medianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
