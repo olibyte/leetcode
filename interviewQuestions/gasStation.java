@@ -1,3 +1,5 @@
+package interviewQuestions;
+
 class gasStation {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         //g = [1,2,3,4,5]

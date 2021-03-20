@@ -1,3 +1,5 @@
+package interviewQuestions;
+
 class ImplementStrStr {
     public int strStr(String haystack, String needle) {
         int L = haystack.length(), n = needle.length();
