@@ -14,6 +14,7 @@ public class houseRobber {
         for (int i = 2; i < nums.length; i++) {
             runningTotal[i] = Math.max(runningTotal[i - 2] + nums[i], runningTotal[i - 1]);
         }
+        
         return runningTotal[nums.length - 1];
     }
 }
