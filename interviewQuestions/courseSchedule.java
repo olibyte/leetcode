@@ -22,8 +22,8 @@ public class courseSchedule {
         
     }
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        graph=new ArrayList[numCourses];
-        for(int i=0;i<numCourses;i++)
+        graph = new ArrayList[numCourses];
+        for(int i = 0; i < numCourses; i++)
                 graph[i]=new ArrayList<>();
             
         for(int[] oneNode:prerequisites)    
