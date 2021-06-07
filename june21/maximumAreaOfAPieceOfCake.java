@@ -1,5 +1,3 @@
-package june21;
-
 import java.util.Arrays;
 
 public class maximumAreaOfAPieceOfCake {

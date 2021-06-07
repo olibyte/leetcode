@@ -1,4 +1,3 @@
-package june21;
 public class maxAreaOfIsland {
     // char[][] grid = new char{[
     //     [0,0,1,0,0,0,0,1,0,0,0,0,0],
